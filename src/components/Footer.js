@@ -2,9 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer>
+            <p>
+            <small>Shubhangi Naik &copy; 2021</small>
+            </p>
+        </footer>
     );
 };
 
