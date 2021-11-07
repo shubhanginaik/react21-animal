@@ -6,11 +6,13 @@ import { Switch,Route } from 'react-router';
 
 const Main = () => {
     return (
+        <main>
         <Switch>
            <Route  path="/" exact component={Home}/>
            <Route  path="/Animals" exact component={AnimalsList}/>
             <Route  path="/about" exact component={About}/>
         </Switch>
+        </main>
     );
 };
 
