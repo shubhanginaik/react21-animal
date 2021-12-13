@@ -43,7 +43,7 @@ color: blue;
 }
 
 input{
-  border: 1px solid brown;
+  border: 1px solid rgb(163, 62, 194);
   width: 200px;
   height: 40px;
   padding-left: 5px;
@@ -86,10 +86,15 @@ input{
 }
 button {
   padding: 1rem 2rem;
-  background-color: lightseagreen;
-  border: 1px solid rgb(23, 135, 129);
+  background-color: rgb(162, 221, 113);
+  border: none;
   box-shadow: 0 0 5px #333;
   margin: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: cadetblue;
 }
 small{
   color: black;
