@@ -38,13 +38,20 @@ li{
 a{
   color: rgb(163, 62, 194);
 }
+nav a:hover{
+color: blue;
+}
 
 input{
   border: 1px solid brown;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
 }
 .inputWrapper{
   justify-content: center;
   margin: 1rem;
+  margin-top: 0;
 }
 .animalsList {
   display: flex;
@@ -83,5 +90,8 @@ button {
   border: 1px solid rgb(23, 135, 129);
   box-shadow: 0 0 5px #333;
   margin: 2rem;
+}
+small{
+  color: black;
 }
 
