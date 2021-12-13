@@ -27,7 +27,7 @@ class AnimalsList extends Component {
     ));
 
     return (
-      <div className="animalsList">
+      <div>
         <Switch>
           <Route exact path={this.props.match.path}>
             <div className="inputWrapper">
@@ -39,12 +39,14 @@ class AnimalsList extends Component {
             </div>
             {animalslisting}
           </Route>
+          <div className="animalsList">
           <Route path={`${this.props.match.path}/:animal`}>
-              <AnimalSingle />
+            <AnimalSingle />
           </Route>
+          </div>
         </Switch>
       </div>
     );
   }
 }
-export default  withRouter (AnimalsList);
+export default  withRouter(AnimalsList);
