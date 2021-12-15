@@ -6,7 +6,7 @@ const AnimalSingle = () => {
   let history = useHistory();
 
   return (
-    <div>
+    <div className="animalSingle">
       <h1>This is the page for {animal}</h1>
       <div>
         <button onClick={() => history.goBack()}>Back to animals</button>
